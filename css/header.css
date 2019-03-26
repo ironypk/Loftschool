@@ -1,0 +1,142 @@
+@font-face{
+    font-family: Gora;
+    src:url(/fonts/Gora-Free.ttf);
+}
+
+
+@font-face{
+    font-family:OpenSans;
+    src:url(/fonts/OpenSans-Light.ttf);
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+@font-face{
+    font-family:OpenSans;
+    src:url(/fonts/OpenSans-Bold.ttf);
+    font-weight:bold;
+    font-style:normal;
+}
+
+
+
+@font-face{
+    font-family:OpenSans;
+    src:url(/fonts/OpenSans-LightItalic.ttf);
+    font-weight:normal;
+    font-style:italic;
+}
+
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+li{
+    list-style:none;
+}
+
+body,html{
+    font-family:OpenSans;
+}
+
+.wrapper{
+    width:1100px;
+    margin:0 auto;
+}
+
+.main-header, .main-footer{
+    width:1100px;
+    height:77px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#131415;
+}
+
+
+.logo{
+    display:inline-block;
+    width:160px;
+    height:18px;
+    margin:31px 18px 28px 19px;
+    font-family:Gora;
+    color:#f89513;
+}
+
+.navbar{
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+}
+.navbar__list{
+    display:flex;
+}
+
+.navbar__list li{
+    margin-left:20px;
+}
+.navbar__list li span{
+    margin-right:10px;
+}
+
+.navbar__list li a{
+    color:#ffffff;
+    font-weight:bold;
+    
+}
+
+.company-contacts__phone{
+    color:#ffffff;
+    font-weight:bold;
+    font-size:21px;
+}
+
+.company-contacts{
+    margin-top:15px;
+    margin-right:21px;
+    margin-bottom:37px;
+}
+
+.beep{
+    position:relative;
+    width:160px;
+    height:80px;
+    padding:20px;
+    top:25px;
+    left:10px;
+    font-size:14px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
+    display:none;
+}
+
+
+.company-contacts__text{
+    position: relative;
+    font-weight:bold;
+    font-size:14px;
+    color: rgba(248, 149, 19, 0.7);
+    text-align:right;
+    text-decoration:underline;
+}
+
+
+.company-contacts__text:hover{
+    color: rgba(255, 255, 255, 0.7);
+    cursor:pointer;
+}
+
+.just-do-it{
+    margin:36px 215px 101px 203px;
+}
+
+
