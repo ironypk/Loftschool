@@ -69,7 +69,8 @@ body,html{
     height:18px;
     margin:31px 18px 28px 19px;
     font-family:Gora;
-    color:#f89513;
+    /* color:#f89513; */
+    color:red;
 }
 
 .navbar{
