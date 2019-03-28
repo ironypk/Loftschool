@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,700i&subset=cyrillic');
+
 @font-face{
     font-family: Gora;
-    src:url(/fonts/Gora-Free.ttf);
+    src:url(../fonts/Gora-Free.woff2);
 }
 
 
 @font-face{
     font-family:OpenSans;
-    src:url(/fonts/OpenSans-Light.ttf);
+    src:url(../fonts/OpenSans-Light.woff2);
     font-weight:normal;
     font-style:normal;
 }
@@ -14,7 +16,7 @@
 
 @font-face{
     font-family:OpenSans;
-    src:url(/fonts/OpenSans-Bold.ttf);
+    src:url(../fonts/OpenSans-Bold.woff2);
     font-weight:bold;
     font-style:normal;
 }
@@ -23,13 +25,10 @@
 
 @font-face{
     font-family:OpenSans;
-    src:url(/fonts/OpenSans-LightItalic.ttf);
+    src:url(../fonts/OpenSans-LightItalic.woff2);
     font-weight:normal;
     font-style:italic;
 }
-
-
-
 
 *{
     padding:0;
@@ -49,33 +48,35 @@ body,html{
     font-family:OpenSans;
 }
 
-.wrapper{
-    width:1100px;
-    margin:0 auto;
+
+.main-header{
+    height:77px;
+    background-color:#131415;
+    padding-top:15px;
+    margin-bottom:35px;
+    display:flex;
+    justify-content: center;
 }
 
-.main-header, .main-footer{
+.main-header__content{
     width:1100px;
-    height:77px;
+    padding:0 20px;
     display:flex;
     justify-content: space-between;
-    background-color:#131415;
 }
 
 
 .logo{
     display:inline-block;
     width:160px;
-    height:18px;
-    margin:31px 18px 28px 19px;
+    padding-top:13px;
     font-family:Gora;
     color:#f89513;
 }
 
 .navbar{
     display:flex;
-    margin:0 auto;
-    align-items: center;
+    padding-top:10px;
 }
 .navbar__list{
     display:flex;
@@ -100,24 +101,6 @@ body,html{
     font-size:21px;
 }
 
-.company-contacts{
-    margin-top:15px;
-    margin-right:21px;
-    margin-bottom:37px;
-}
-
-.beep{
-    position:relative;
-    width:160px;
-    height:80px;
-    padding:20px;
-    top:25px;
-    left:10px;
-    font-size:14px;
-    border-radius: 3px;
-    box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
-    display:none;
-}
 
 
 .company-contacts__text{
@@ -136,7 +119,6 @@ body,html{
 }
 
 .just-do-it{
-    margin:36px 215px 101px 203px;
+    text-align:center;
+    padding-bottom:100px;
 }
-
-

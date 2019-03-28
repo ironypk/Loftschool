@@ -1,15 +1,21 @@
 .features{
-    width:1100px;
-    height:570px;
+    padding-top:65px;
+    padding-bottom:100px;
     background-color: #131415;
-    overflow:auto;
+    display:flex;
+    justify-content:center;
+}
+
+.features__content{
+    width:1100px;
 }
 
 .features h1{
-    margin-top:66px;
     text-align:center;
+    margin-bottom:63px;
     color:#fff;
     font-size:49px;
+    letter-spacing:2.6px;
 }
 
 
@@ -22,6 +28,9 @@
 .feature{
     width:200px;
     color:#fff;
+}
+
+.feature:not(:last-child){
     margin-right:75px;
 }
 
@@ -30,7 +39,6 @@
     height:66px;
     border-radius:50%;
     margin:0 auto;
-    margin-top:63px;
     margin-bottom:41px;
     background-color:#f89513;
     display:flex;
@@ -44,8 +52,7 @@
     letter-spacing:2.6px;
     font-size:11px;
 }
-
-.feature__description{
+.feature p{
     font-size:18px;
     text-align:center;
     line-height:1.9;
@@ -55,4 +62,5 @@
     list-style:disc;
     text-align:left;;
     margin-left:20px;
+    line-height:1.9;
 }
