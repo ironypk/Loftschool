@@ -1,6 +1,7 @@
 .main-footer{
     height:77px;
     display:flex;
+    padding-top:15px;
     justify-content:center;
     background-color:#131415;
 }
@@ -18,15 +19,10 @@
     width:240px;
     height:50px;
     font-size:14px;
-    margin-top:14px;
     font-weight:300;
     line-height:1.29;
 }
 
-
-.social-networks{
-    padding-top:15px;
-}
 .social-networks h4{
     font-size:14px;
     font-weight:bold;
@@ -34,8 +30,7 @@
 
 .social-networks__list{
     display:flex;
-    margin-top:8px;
-
+    margin-top:5px;
 }
 
 .social-networks__list li{
@@ -52,4 +47,3 @@
 .social-networks__list li:hover{
     background-color:#f89513;
 }
-
