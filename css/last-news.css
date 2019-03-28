@@ -1,6 +1,14 @@
 .news-wrapper{
     padding-top:69px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:80px;
 }
+
+.news-wrapper__content{
+    width:1100px;
+}
+
 
 .news-wrapper h1{
     text-align:center;
@@ -74,7 +82,7 @@
     flex-direction:column;
 }
 
-.top-news_img img{
+.top-news li:not(:last-child){
     margin-bottom:20px;
 }
 
@@ -82,7 +90,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-bottom:80px;
 }
 
 .pages-wrapper p{
