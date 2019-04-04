@@ -2,24 +2,16 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/features.css" />
-    <link rel="stylesheet" href="./css/last-news.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="wrapper">
-      <!-- HEADER -->
-      <!-- HEADER -->
-      <!-- HEADER -->
-      <!-- HEADER -->
       <header class="main-header">
         <div class="main-header__content">
           <a href="#" class="logo">
             Афродита
           </a>
-
           <nav class="navbar">
             <ul class="navbar__list">
               <li>
@@ -28,11 +20,11 @@
               </li>
               <li>
                 <span><img src="./img/feed-icon.png" alt="star"/></span>
-                <a href="#">Отзывы</a>
+                <a href="comments.html">Отзывы</a>
               </li>
               <li>
                 <span><img src="./img/service-icon.png" alt="star"/></span>
-                <a href="#">Услуги</a>
+                <a href="services.html">Услуги</a>
               </li>
             </ul>
           </nav>
@@ -41,20 +33,21 @@
             <a href="tel:+88000039210" class="company-contacts__phone"
               >8 (800) 00-392-12</a
             >
-            <p id="work" class="company-contacts__text">График работы</p>
+            <p class="company-contacts__text">График работы</p>
+            <div class="work-time">
+                <p>пн-вс: 09:00-20:00</p>
+                <p>обед: 14:00-14:30</p>
+              </div>
           </div>
         </div>
       </header>
 
-      <div class="just-do-it">
+      <div class="banner">
         <img src="./img/image.png" alt="runner" />
       </div>
-      <!-- FEATURES -->
-      <!-- FEATURES -->
-      <!-- FEATURES -->
       <div class="features">
         <div class="features__content">
-          <h1>ОСОБЕННОСТИ</h1>
+          <h2>ОСОБЕННОСТИ</h2>
           <ul class="feature-wrap">
             <li class="feature">
               <div class="feature__logo">
@@ -102,16 +95,13 @@
           </ul>
         </div>
       </div>
-
-      <!-- last news -->
-      <!-- last news --><!-- last news -->
       <div class="news-wrapper">
         <div class="news-wrapper__content">
-          <h1>ПОСЛЕДНИЕ НОВОСТИ</h1>
+          <h2>ПОСЛЕДНИЕ НОВОСТИ</h2>
           <div class="last-news-wrapper">
             <ul class="last-news">
               <li class="last-news__list">
-                <div class="news-img">
+                <div class="avatar">
                   <img src="./img/layer-6.png" alt="" />
                 </div>
                 <div class="news-description">
@@ -126,7 +116,7 @@
                 </div>
               </li>
               <li class="last-news__list">
-                <div class="news-img">
+                <div class="avatar">
                   <img src="./img/layer-7.png" alt="" />
                 </div>
                 <div class="news-description">
@@ -141,7 +131,7 @@
                 </div>
               </li>
               <li class="last-news__list">
-                <div class="news-img">
+                <div class="avatar">
                   <img src="./img/layer-9.png" alt="" />
                 </div>
                 <div class="news-description">
@@ -180,55 +170,54 @@
               </ul>
             </div>
           </div>
-
-          <div class="pages-wrapper">
-            <p>Страница 1 из 7</p>
-            <span class="arrow-left"></span>
-            <ul class="pages">
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#">6</a></li>
-              <li><a href="#">7</a></li>
-            </ul>
-            <span class="arrow-right"></span>
-          </div>
         </div>
+      </div>
+      <div class="pages-wrapper">
+        <p>Страница 1 из 7</p>
+        <span class="arrow-left"></span>
+        <ul class="pages">
+          <li class="pages__list--active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+        </ul>
+        <span class="arrow-right"></span>
       </div>
 
       <footer class="main-footer">
         <div class="main-footer__content">
-        <p class="page-author">
-          Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
-          Автор работы: Бульба Константин
-        </p>
+          <p class="page-author">
+            Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
+            Автор работы: Бульба Константин
+          </p>
 
-        <a href="#" class="logo">
-          Афродита
-        </a>
-        <div class="social-networks">
-          <h4>Наши социальные сети</h4>
-          <ul class="social-networks__list">
-            <li>
-              <a href="#"><img src="./img/vk.png" alt="vk"/></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/fb.png" alt="fb"/></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/google.png" alt="google"/></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/twitter.png" alt="twitter"/></a>
-            </li>
-            <li>
-              <a href="#"><img src="./img/mail.png" alt="mail"/></a>
-            </li>
-          </ul>
+          <a href="#" class="logo">
+            Афродита
+          </a>
+          <div class="social-networks">
+            <h4>Наши социальные сети</h4>
+            <ul class="social-networks__list">
+              <li>
+                <a href="#"><img src="./img/vk.png" alt="vk"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/fb.png" alt="fb"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/google.png" alt="google"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/twitter.png" alt="twitter"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/mail.png" alt="mail"/></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
       </footer>
     </div>
   </body>

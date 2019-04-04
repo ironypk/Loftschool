@@ -1,0 +1,138 @@
+.comments-form{
+    margin-bottom:110px;
+}
+
+.comments-form__content{
+    width:700px;
+    margin:0 auto;
+    padding:0 70px;
+}
+
+.comments-form__content h2{
+    font-size:49px;
+    margin-bottom:30px;
+}
+
+
+.form-element{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.form-element__item p,
+.your-comments p,
+.radio-button p{
+    font-size:14px;
+    color:#221f1f;
+    margin-bottom:10px;
+}
+
+.form-element__item input{
+    width:270px;
+    height:40px;
+    padding-left:10px;
+    font-size:14px;
+    color: rgba(34, 31, 31, 0.5);
+    border:none;
+}
+
+.form-element__item:not(:last-child){
+    margin-right:20px;
+}
+
+
+.your-comments{
+    margin-bottom:20px;
+}
+
+.your-comments textarea{
+    width:560px;
+    height:90px;
+    padding: 10px;
+    font-size:14px;
+    color:#221f1f;
+    border: solid 1px #f89513;
+    border-radius: 3px;
+    resize:none;
+    font-family:OpenSans;
+}
+
+
+:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+.submit-container{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
+.form-button{
+width: 125px;
+  height: 45px;
+  border-radius: 3px;
+  border:none;
+  background-color: #1c1f1d;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+/* -----------------RADIO BUTTON-----------------*/
+.radio {
+    display:none;
+  }
+  
+  .radio + label {
+    position: relative;
+    font-size:14px;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+  }
+  .radio + label:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CDD1DA;
+    border-radius: 50%;
+    background: #FFF;
+  }
+  .radio + label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #f89513;
+    opacity: 0;
+    transition: .2s;
+  }
+
+  .radio:checked + label,
+  .radio:checked + label:after,
+  .radio:checked + label:before
+  { 
+    border-color:#f89513;
+    opacity: 1;
+    color:#f89513;
+  }
+
+
+
+.controls{
+    display: flex;
+}
+
+.controls p:not(:last-child) {
+    margin-right:20px;
+}
