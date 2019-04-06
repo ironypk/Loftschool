@@ -3,7 +3,7 @@
     margin-bottom:100px;
 }
 
-.notice__content{
+.notice__container{
     height:170px;
     padding:30px 200px;
     font-size:18px;
@@ -14,7 +14,7 @@
 }
 
 
-.notice__content span{
+.notice__container span{
     font-weight:bold;
     color:#f89513;
 }

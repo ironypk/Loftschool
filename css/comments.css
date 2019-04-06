@@ -1,40 +1,38 @@
-.comments{
+
+.main-commments__container{
+    padding:0 110px;
     margin-bottom:50px;
 }
 
-.comments__content{
-    padding:0 110px;
-}
-
-.comments__content h2{
+.rewiews-wrapper h2{
     font-size:49px;
     letter-spacing:2.5px;
     margin-bottom:50px;
 }
 
 
-.last-comments{
+.rewiews{
     display:flex;
     flex-direction:column;
 }
 
-.last-comments__list{
+.rewiew{
     display:flex;
     font-size:18px;
     font-weight:300px;
     line-height:1.5;
 }
 
-.last-comments__list:not(:last-child){
+.rewiew:not(:last-child){
     margin-bottom:60px;
 }
 
-.comments-description time{
+.rewiew__description time{
     font-size:14px;
     color:#656464;
 }
 
-.comments-description h4 {
+.rewiew__description h4 {
     margin-bottom:10px;
 }
 

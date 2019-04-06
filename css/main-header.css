@@ -7,15 +7,14 @@
     justify-content: center;
 }
 
-.main-header__content{
-    width:1100px;
+.main-header__container{
     padding:0 20px;
     display:flex;
     justify-content: space-between;
     position: relative;
 }
 
-.logo{
+.afrodita-logo{
     display:inline-block;
     width:160px;
     padding-top:13px;
@@ -32,27 +31,62 @@
 }
 
 
-.navbar__list--focus span{
-   color:#f89513;
-}
 
 .navbar__list li:not(:last-child){
     display:flex;
-    align-items:top;
-    margin-right:20px;
-}
-.navbar__list li span{
-    display:inline-block;
-    width:20px;
-    height:20px;
-    margin-right:10px;
+    margin-right:60px;
 }
 
-.navbar__list li a{
-    color:#ffffff;
+
+.navbar__link{
+    color:#fff;
     font-weight:bold;
     
 }
+
+.navbar__link:hover{
+    color:#f89513;
+}
+
+.navbar__item{
+    position:relative;
+    height:20px;
+}
+
+.navbar__link:before{
+    content:"";
+    position:absolute;
+    width:20px;
+    height:20px;
+    left:-40px;
+    cursor: pointer;
+}
+
+.main-link:before{
+    background: url('../img/main-icon.png') center center no-repeat;
+}
+
+.comments-link:before{
+    background: url('../img/feed-icon.png') center center no-repeat;
+}
+
+.service-link:before{
+    background: url('../img/service-icon.png') center center no-repeat;
+}
+
+
+.main-link:hover:before{
+    background: url('../img/main-icon-yellow.png') center center no-repeat;
+}
+
+.comments-link:hover:before{
+    background: url('../img/feed-icon-copy.png') center center no-repeat;
+}
+
+.service-link:hover:before{
+    background: url('../img/service-icon-yellow.png') center center no-repeat;
+}
+
 
 .company-contacts__phone{
     color:#ffffff;

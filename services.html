@@ -3,32 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Comments</title>
+    <title>Services</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="main-header">
-        <div class="main-header__content">
-          <a href="#" class="logo">
+        <div class="container main-header__container">
+          <a href="#" class="afrodita-logo">
             Афродита
           </a>
-
           <nav class="navbar">
-            <ul class="navbar__list">
-              <li>
-                <span><img src="./img/main-icon.png" alt="main"/></span>
-                <a href="index.html">Главная</a>
-              </li>
-              <li>
-                <span><img src="./img/feed-icon.png" alt="star"/></span>
-                <a href="comments.html">Отзывы</a>
-              </li>
-              <li>
-                <span><img src="./img/service-icon.png" alt="star"/></span>
-                <a href="#">Услуги</a>
-              </li>
-            </ul>
-          </nav>
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="navbar__link  main-link" href="index.html">Главная</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link comments-link" href="comments.html">Отзывы</a>
+                </li>
+                <li class="navbar__item" >
+                  <a  class="navbar__link service-link" href="services.html">Услуги</a>
+                </li>
+              </ul>
+            </nav>
 
           <div class="company-contacts">
             <a href="tel:+88000039210" class="company-contacts__phone"
@@ -42,8 +38,13 @@
           </div>
         </div>
       </header>
-      <div class="services">
-        <div class="container service-container">
+
+
+
+
+
+      <main class="services">
+        <div class="container services__container">
             <ul class="breadcrumbs">
                 <li class="breadcrumbs__item">
                   <a href="index.html" class="breadcrumbs__link">Главная</a>
@@ -57,7 +58,7 @@
 
 
 
-          <div class="services-content">
+          <div class="services__content">
             <h2>УСЛУГИ</h2>
             <ul class="services-list">
               <li class="services-list__item">
@@ -175,38 +176,43 @@
 
           <div class="partners">
             <h2>ПАРТНЁРЫ</h2>
-            <div class="partners-logo">
-              <div class="partners-logo__item logo-1">
-                <img src="./img/logo-1.png" alt="" />
+            <div class="partners__block-wrapper">
+              <div class="partners__block">
+                  <div class="partners-logo__item logo-1">
+                      <img src="./img/logo-1.png" alt="" />
+                    </div>
+                    <div class="partners-logo__item logo-2">
+                      <img src="./img/logo-2.png" alt="" />
+                    </div>
+                    <div class="partners-logo__item logo-3">
+                      <img src="./img/logo-3.png" alt="" />
+                    </div>
               </div>
-              <div class="partners-logo__item logo-2">
-                <img src="./img/logo-2.png" alt="" />
+              <div class="partners__block">
+                  <div class="partners-logo__item logo-4">
+                      <img src="./img/logo-4.png" alt="" />
+                    </div>
+                    <div class="partners-logo__item logo-5">
+                      <img src="./img/logo-5.png" alt="" />
+                    </div>
+                    <div class="partners-logo__item logo-6">
+                      <img src="./img/logo-6.png" alt="" />
+                    </div>
               </div>
-              <div class="partners-logo__item logo-3">
-                <img src="./img/logo-3.png" alt="" />
-              </div>
-              <div class="partners-logo__item logo-4">
-                <img src="./img/logo-4.png" alt="" />
-              </div>
-              <div class="partners-logo__item logo-5">
-                <img src="./img/logo-5.png" alt="" />
-              </div>
-              <div class="partners-logo__item logo-6">
-                <img src="./img/logo-6.png" alt="" />
-              </div>
+      
             </div>
           </div>
         </div>
-      </div>
+      </main>
 
       <footer class="main-footer">
-        <div class="main-footer__content">
+        <div class="container main-footer__container">
           <p class="page-author">
             Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
             Автор работы: Бульба Константин
           </p>
 
-          <a href="#" class="logo">
+          <a href="#" class="afrodita-logo">
             Афродита
           </a>
           <div class="social-networks">
