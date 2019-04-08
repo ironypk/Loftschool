@@ -90,6 +90,7 @@
 .partners__block{
     display:flex;
     justify-content:space-between;
+    align-items: center;
 }
 
 .partners__block:not(:last-child){
@@ -106,9 +107,4 @@
 
 .partners-logo__item img:hover{
     filter:grayscale(0);
-}
-
-
-.logo-2, .logo-5 {
-    margin-top:20px;
 }

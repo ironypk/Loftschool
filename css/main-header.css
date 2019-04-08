@@ -56,35 +56,35 @@
 .navbar__link:before{
     content:"";
     position:absolute;
-    width:20px;
+    width:35px;
     height:20px;
-    left:-40px;
+    left:-35px;
     cursor: pointer;
 }
 
 .main-link:before{
-    background: url('../img/main-icon.png') center center no-repeat;
+    background: url('../img/main-icon.png') left center no-repeat;
 }
 
 .comments-link:before{
-    background: url('../img/feed-icon.png') center center no-repeat;
+    background: url('../img/feed-icon.png') left center no-repeat;
 }
 
 .service-link:before{
-    background: url('../img/service-icon.png') center center no-repeat;
+    background: url('../img/service-icon.png') left center no-repeat;
 }
 
 
 .main-link:hover:before{
-    background: url('../img/main-icon-yellow.png') center center no-repeat;
+    background: url('../img/main-icon-yellow.png') left center no-repeat;
 }
 
 .comments-link:hover:before{
-    background: url('../img/feed-icon-copy.png') center center no-repeat;
+    background: url('../img/feed-icon-copy.png') left center no-repeat;
 }
 
 .service-link:hover:before{
-    background: url('../img/service-icon-yellow.png') center center no-repeat;
+    background: url('../img/service-icon-yellow.png') left center no-repeat;
 }
 
 
