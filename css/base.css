@@ -27,7 +27,6 @@ body,html{
 
 }
 
-
 .container{
     width:1100px;
     margin:0 auto;
@@ -40,4 +39,13 @@ h1, h2, h3, h4, h5, h6 {
 
 button{
     cursor: pointer;
+}
+
+.intro__logo{
+    position: relative;
+}
+.intro__logo:after{
+    content:"";
+    position:absolute;
+    background:url('../img/intro.png') center center no-repeat;
 }
