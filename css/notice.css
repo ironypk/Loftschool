@@ -1,0 +1,20 @@
+.notice{
+    background-color:#131415;
+    margin-bottom:100px;
+}
+
+.notice__container{
+    height:170px;
+    padding:30px 200px;
+    font-size:18px;
+    color:#fff;
+    text-align:left;
+    background-image:url('../img/pattern.png');
+    background-repeat:no-repeat;
+}
+
+
+.notice__container span{
+    font-weight:bold;
+    color:#f89513;
+}
