@@ -1,6 +1,7 @@
 .feature{
-    width:100%;
+    width:inherit;
     height:280px;
+    margin-bottom:60px;
     display:flex;
     flex-direction:column;
     justify-content:center;

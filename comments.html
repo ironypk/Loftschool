@@ -30,18 +30,18 @@
 
       <div class="rewiews-block">
         <div class="container rewiews__container">
-          <div class="sidebar">
+          <aside class="sidebar">
             <nav class="navbar navbar-services">
               <ul class="navbar__list">
                 <li class="navbar__item">
                   <a class="navbar__link main-link" href="main.html">ГЛАВНАЯ</a>
                 </li>
                 <li class="navbar__item">
-                  <a class="navbar__link service-link" href="services.html"
+                  <a class="navbar__link service-link service-link--active" href="services.html"
                     >УСЛУГИ</a
                   >
                 </li>
-                <li class="navbar__item">
+                <li class="navbar__item navbar__item--active">
                   <a class="navbar__link comments-link" href="comments.html"
                     >ОТЗЫВЫ</a
                   >
@@ -105,7 +105,7 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </aside>
 
           <div class="rewiews-wrapper">
             <ul class="breadcrumbs">
@@ -162,7 +162,7 @@
                   </div>
                 </li>
                 <li class="rewiews__item">
-                  <div class="avatar rewiews__avatar afrodita-avatar">
+                  <div class="rewiews__avatar afrodita-avatar">
                     <img src="./img/vector-smart-object.png" alt="" />
                   </div>
                   <div class="rewiews__description">
@@ -196,59 +196,58 @@
                 </li>
               </ul>
             </main>
-          </div>
-        </div>
-
-        <div class="pages-wrapper">
-          <p>Страница 1 из 7</p>
-          <span class="arrow-left"></span>
-          <ul class="pages">
-            <li class="pages__item--active">
-              <a class="pages__link" href="#">1</a>
-            </li>
-            <li class="pages__item"><a class="pages__link" href="#">2</a></li>
-            <li class="pages__item"><a class="pages__link" href="#">3</a></li>
-            <li class="pages__item"><a class="pages__link" href="#">4</a></li>
-            <li class="pages__item"><a class="pages__link" href="#">5</a></li>
-            <li class="pages__item"><a class="pages__link" href="#">6</a></li>
-            <li class="pages__item"><a class="pages__link" href="#">7</a></li>
-          </ul>
-          <span class="arrow-right"></span>
-        </div>
-
-        <div class="comments-form">
-          <form method="GET" class="container comments-form__content">
-            <h2>Оставить отзыв</h2>
-            <div class="form-element">
-              <div class="form-element__item">
-                <p class="form-element__name">Ваше имя</p>
-                <input type="text" placeholder="Андрей" />
-              </div>
-              <div class="form-element__item">
-                <p class="form-element__vk">Ссылка на профиль VK</p>
-                <input type="text" placeholder="vk.com/example" />
-              </div>
+            <div class="pages-wrapper pages-rewiews">
+              <p>Страница 1 из 7</p>
+              <span class="arrow-left"></span>
+              <ul class="pages">
+                <li class="pages__item--active">
+                  <a class="pages__link" href="#">1</a>
+                </li>
+                <li class="pages__item"><a class="pages__link" href="#">2</a></li>
+                <li class="pages__item"><a class="pages__link" href="#">3</a></li>
+                <li class="pages__item"><a class="pages__link" href="#">4</a></li>
+                <li class="pages__item"><a class="pages__link" href="#">5</a></li>
+                <li class="pages__item"><a class="pages__link" href="#">6</a></li>
+                <li class="pages__item"><a class="pages__link" href="#">7</a></li>
+              </ul>
+              <span class="arrow-right"></span>
             </div>
-
-            <div class="your-comments">
-              <p>Текст отзыва</p>
-              <textarea placeholder="Мне понравилось"></textarea>
-            </div>
-            <div class="submit-container">
-              <div class="radio-button">
-                <p class="radio-button__description">
-                  Отображать фото в отзыве?
-                </p>
-                <div class="controls">
-                  <input type="radio" name="radio" class="radio" id="radio-1" />
-                  <label for="radio-1">Да</label>
-                  <input type="radio" name="radio" class="radio" id="radio-2" />
-                  <label for="radio-2">Нет</label>
+    
+            <div class="comments-form">
+              <form method="GET" class="comments-form__content">
+                <h2>Оставить отзыв</h2>
+                <div class="form-element">
+                  <div class="form-element__item">
+                    <p class="form-element__name">Ваше имя</p>
+                    <input type="text" placeholder="Андрей" />
+                  </div>
+                  <div class="form-element__item">
+                    <p class="form-element__vk">Ссылка на профиль VK</p>
+                    <input type="text" placeholder="vk.com/example" />
+                  </div>
                 </div>
-              </div>
-              <button type="submit" class="form-button">ОТПРАВИТЬ</button>
+    
+                <div class="your-comments">
+                  <p>Текст отзыва</p>
+                  <textarea placeholder="Мне понравилось"></textarea>
+                </div>
+                <div class="submit-container">
+                  <div class="radio-button">
+                    <p class="radio-button__description">
+                      Отображать фото в отзыве?
+                    </p>
+                    <div class="controls">
+                      <input type="radio" name="radio" class="radio" id="radio-1" />
+                      <label class="controls__label" for="radio-1">Да</label>
+                      <input type="radio" name="radio" class="radio" id="radio-2" />
+                      <label class="controls__label" for="radio-2">Нет</label>
+                    </div>
+                  </div>
+                  <button type="submit" class="form-button">ОТПРАВИТЬ</button>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
 

@@ -1,8 +1,6 @@
 .pages-wrapper{
     display:flex;
-    justify-content:center;
     align-items:center;
-    margin-bottom:70px;
 }
 
 .pages-wrapper p{
@@ -92,4 +90,14 @@
 .pages-wrapper span:hover{
     opacity:1;
     cursor:pointer;
+}
+
+
+.main-pages{
+    margin-left:190px;
+}
+
+.pages-rewiews{
+    margin-left:110px;
+    margin-bottom:70px;
 }

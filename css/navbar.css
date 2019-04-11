@@ -84,3 +84,17 @@
 .service-link:after {
   background-position: -90px -43px;
 }
+
+
+
+.navbar__item--active a{
+  color: #f89513;
+}
+
+.navbar__item--active a:after{
+  opacity:1;
+}
+
+.navbar__item--active a:before{
+  opacity:0;
+}

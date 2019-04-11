@@ -5,17 +5,18 @@
 
 @import url('./intro.css');
 @import url('./header.css');
+@import url('./main-page.css');
 @import url('./navbar.css');
 @import url('./sidebar.css');
 @import url('./footer.css');
-@import url('./banner.css');
+@import url('./top-news.css');
 @import url('./social-networks.css');
 @import url('./features.css');
 @import url('./news-wrapper.css');
 @import url('./partners.css');
 @import url('./breadcrumbs.css');
-@import url('./rewiews.css');
 @import url('./notice.css');
 @import url('./comments-form.css');
 @import url('./services.css');
 @import url('./pages-wrapper.css');
+@import url('./rewiews.css');
