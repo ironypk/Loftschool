@@ -1,37 +1,73 @@
-.news-wrapper{
-    padding-top:69px;
+.news{
     display:flex;
     justify-content:center;
     margin-bottom:70px;
 }
 
-.news-wrapper__content{
-    width:1100px;
+.news__container{
+    padding-left:75px;
+    padding-right:80px;
+    display:flex;
+    justify-content:center;
 }
 
-
-.news-wrapper h2{
-    text-align:center;
-    font-size:49px;
-    margin-bottom:70px;
+.top-news{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     font-weight:bold;
-    letter-spacing:1.5px;
+    letter-spacing:2.4px;
+    font-size:12px;
+    padding-top:20px;
+    margin-right:70px;
+
 }
 
-.last-news-wrapper{
-    padding-left:50px;
-    padding-right:50px;
-    display:flex;
-    justify-content:center;
+.top-news h4{
+    margin-bottom:5px;
+}
+.top-news p{
+    color:#656464;
+    margin-bottom:24px;
 }
 
-
-.last-news{
+.top-news__list{
     display:flex;
     flex-direction:column;
 }
 
+.top-news__link{
+    width:170px;
+    height:170px;
+    display:inline-block;
+}
+
+.top-news__link img{
+    width:100%;
+    height:100%;
+}
+
+.top-news__item:not(:last-child){
+    margin-bottom:20px;
+}
+
+.top-news__item:last-child{
+    margin-bottom: 50px;
+}
+
+.last-news h2{
+    font-size:49px;
+    margin-bottom:40px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+}
+
 .last-news__list{
+    display:flex;
+    flex-direction:column;
+}
+
+.last-news__item{
     display:flex;
     font-size:18px;
     font-weight:300px;
@@ -40,53 +76,27 @@
 }
 
 
-.last-news__list:not(:last-of-type){
+.last-news__item:not(:last-of-type){
     margin-bottom:60px;
 }
 
 .avatar{
-    min-width:160px;
-    height:160px;
+    min-width:170px;
+    height:170px;
     margin-right:20px;
-    overflow:hidden;
     border-radius:50%;
+    overflow:hidden;
 }
 
-.news-description{
-    padding-right:20px;
+.avatar img{
+    width:100%;
+    height:100%;
 }
-.news-description h4 {
+
+.last-news__description h4 {
     margin-bottom:10px;
 }
 
-.top-news-wrapper{
-    display:flex;
-    flex-direction:column;
-    font-weight:bold;
-    letter-spacing:2.4px;
-    font-size:12px;
-
+.last-news__description p{
+    text-align: justify;
 }
-
-.top-news-wrapper h4{
-    margin-bottom:5px;
-}
-.top-news-wrapper p{
-    color:#656464;
-    margin-bottom:24px;
-}
-
-.top-news{
-    display:flex;
-    flex-direction:column;
-}
-
-.top-news_img{
-    display:inline-block;
-}
-
-.top-news li:not(:last-child){
-    margin-bottom:20px;
-}
-
-

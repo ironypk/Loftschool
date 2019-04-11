@@ -1,0 +1,35 @@
+.partners {
+  width: inherit;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.partners h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.partners__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.partners__logo {
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.partners__logo:hover {
+  filter: grayscale(0);
+}

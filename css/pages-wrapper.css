@@ -30,7 +30,7 @@
 }
 
 
-.pages__list--active a {
+.pages__item--active a {
     background-color:#27273e;
     border-radius:3px;
     color:#f89513;
