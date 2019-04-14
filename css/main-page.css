@@ -4,6 +4,7 @@
 
 .main-container{
     display:flex;
+    margin-bottom: 70px;
 }
 
 .banner{
