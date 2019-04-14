@@ -1,8 +1,7 @@
 .pages-wrapper{
     display:flex;
-    justify-content:center;
+    /* justify-content:center; */
     align-items:center;
-    margin-bottom:70px;
 }
 
 .pages-wrapper p{
@@ -30,7 +29,7 @@
 }
 
 
-.pages__list--active a {
+.pages__item--active a {
     background-color:#27273e;
     border-radius:3px;
     color:#f89513;
@@ -92,4 +91,12 @@
 .pages-wrapper span:hover{
     opacity:1;
     cursor:pointer;
+}
+
+.main-pages{
+    justify-content:center;
+}
+.pages-rewiews{
+    padding-left:110px;
+    margin-bottom:70px;
 }

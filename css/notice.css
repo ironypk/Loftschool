@@ -1,16 +1,17 @@
 .notice{
+    width:inherit;
     background-color:#131415;
-    margin-bottom:100px;
+    margin-bottom:30px;
 }
 
 .notice__container{
-    height:170px;
-    padding:30px 200px;
+    width:inherit;
+    padding:30px;
+    text-align:center;
     font-size:18px;
     color:#fff;
-    text-align:left;
     background-image:url('../img/pattern.png');
-    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 
